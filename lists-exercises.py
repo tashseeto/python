@@ -29,3 +29,19 @@
 # print(f"{mailing_list[2][0]} : {mailing_list[2][1]}")
 # print(f"{mailing_list[3][0]} : {mailing_list[3][1]}")
 # print(f"{mailing_list[4][0]} : {mailing_list[4][1]}")
+
+
+print("Question 3")
+
+names = ["James", "Tom", "Luke"]
+print(names)
+
+nameA = input("Please provide a name: ")
+nameB = input("Please provide a name: ")
+nameC = input("Please provide a name: ")
+
+names.append("(input(nameA)")
+names.append(input(nameB))
+names.append(input(nameC))
+
+print(names)
