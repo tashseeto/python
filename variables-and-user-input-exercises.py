@@ -15,7 +15,7 @@ num1C = int(num1C)
 num1B = int(num1B)
 product = num1C + num1B
 
-print(f"num1C} + {num1B} = {product}")
+print(f"{num1C} + {num1B} = {product}")
 
 num1D = input("Please type 3.0 ")
 num1E = input("Please type -9 ") 
