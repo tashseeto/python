@@ -33,15 +33,15 @@
 
 print("Question 3")
 
-names = ["James", "Tom", "Luke"]
-print(names)
+# names = ["James", "Tom", "Luke"]
+# print(names)
 
-nameA = input("Please provide a name: ")
-nameB = input("Please provide a name: ")
-nameC = input("Please provide a name: ")
+# nameA = input("Please provide a name: ")
+# nameB = input("Please provide a name: ")
+# nameC = input("Please provide a name: ")
 
-names.append("(input(nameA)")
-names.append(input(nameB))
-names.append(input(nameC))
+# names.append("(input(nameA)")
+# names.append(input(nameB))
+# names.append(input(nameC))
 
-print(names)
+# print(names)
