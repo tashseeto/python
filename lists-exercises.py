@@ -31,7 +31,7 @@
 # print(f"{mailing_list[4][0]} : {mailing_list[4][1]}")
 
 
-print("Question 3")
+# print("Question 3")
 
 # names = ["James", "Tom", "Luke"]
 # print(names)
@@ -45,3 +45,17 @@ print("Question 3")
 # names.append(input(nameC))
 
 # print(names)
+
+names = []
+
+name_promptA = input("Please provide a name: ")
+name_promptB = input("Please provide a name: ")
+name_promptC = input("Please provide a name: ")
+
+names.append(name_promptA)
+names.append(name_promptB)
+names.append(name_promptC)
+
+print(names)
+
+
