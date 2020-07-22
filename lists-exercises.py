@@ -62,8 +62,8 @@ print(names)
 print("Question 4")
 
 sentenceA = input("Please type: 'this is a string' ")
-outputA = sentenceA.split()
 
+outputA = sentenceA.split()
 print(len(outputA),outputA)
 
 outputB = list(sentenceA)
@@ -71,8 +71,8 @@ print(len(outputB),outputB)
 
 
 sentenceB = input("Please type: 'what a lovely day! ")
-outputC = sentenceB.split()
 
+outputC = sentenceB.split()
 print(len(outputC),outputC)
 
 outputD = list(sentenceB)
