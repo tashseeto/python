@@ -1,12 +1,10 @@
 print("Question 1")
 
 moths_in_house = True
-
 if moths_in_house:
     print("Get the moths!")
 
 moths_in_house = False
-
 if not moths_in_house:
     print("No threats detected.")
 
