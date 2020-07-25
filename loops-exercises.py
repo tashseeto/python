@@ -26,7 +26,7 @@ print("Question 1")
 total1 = 0
 while True:
     given_list = int(input("Please enter a number: "))
-if i in given_list = 
+if i in given_list = 0:
     break
 total1 += given_list[i]
     i += 1
