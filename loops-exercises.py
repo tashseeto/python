@@ -1,37 +1,14 @@
 print("Question 1")
 
-# number= input(int("Please enter a number: "))
-# product= number
-# for user_input in number:
-#     print(number)
+number = input("Please enter a number: ")
 
-# count = 0
-# while count > 0:
-#     numbers = input("Please enter a number: ")
-#     numbers = int(numbers)
-
-#     total = total + digits
-    
-#     print(total)
-
-
-
-
-# while digits in digit_collection:
-#     print(digits)
-#     total = total + digits
-# print(total)
-
-
-total1 = 0
-while True:
-    given_list = int(input("Please enter a number: "))
-if i in given_list = 0:
-    break
-total1 += given_list[i]
-    i += 1
-print(total1)
-
-
+total = 0
+count = 0
+while len(number) > 0:
+    count += 1
+    total += int(number)
+    number = input("Please enter another number: ")
+print(total)
+# print(f"Your total is {total}.") - another output option irl - UX
 
 
