@@ -9,5 +9,3 @@ with open("names.txt") as txt_file:
 
 for counter, name in enumerate(names, 1):
     print(f"{counter}.  {name}")
-
-
