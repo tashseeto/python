@@ -1,4 +1,4 @@
-print("Question 1")
+# Question 1
 
 num1A = input("Please type 3 ") 
 num1B = input("Please type 9 ")
@@ -26,7 +26,7 @@ product = num1D + num1E
 print(f"{num1D} + {num1E} = {product}")
 
 
-print("Question 2")
+# Question 2
 
 num2A = input("Please type 3 ")
 num2B = input("Please type 9 ")
@@ -53,7 +53,7 @@ product = num2E * num2F
 print(f"{num2E} * {num2F} = {product}")
 
 
-print("Question 3")
+# Question 3
 
 num3A = input("Please type 10 ")
 num3A = int(num3A)
@@ -73,7 +73,7 @@ productC = int(productC)
 print(f"{num3B}km = {productB}m")
 print(f"{num3B}km = {productC}cm")
 
-print("Question 4")
+# Question 4
 
 name = input("What is your name? ")
 height = input ("What is your height? ")
