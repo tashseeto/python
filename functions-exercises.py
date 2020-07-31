@@ -15,26 +15,29 @@
 # list for user input
 
 
-num_list = []
+# num_list = []
 
-number = input("Please enter a number: ")
+# number = input("Please enter a number: ")
 
-total_sum = 0
-count = 0
-while len(number) > 0:
-    count += 1
-    total_sum += int(number)
-    num_list.append(number)
-    number = input("Please enter another number: ")
+# total_sum = 0
+# count = 0
+# while len(number) > 0:
+#     count += 1
+#     total_sum += int(number)
+#     num_list.append(number)
+#     number = input("Please enter another number: ")
     
-num_items = len(num_list)
-num_list2 = int(num_items)
+# num_items = len(num_list)
+# num_list2 = int(num_items)
 
-# print(num_list2)
-# print(num_items)
-# print(total_sum)
+# # print(num_list2)
+# # print(num_items)
+# # print(total_sum)
 
-def calculate_mean(total_sum, num_items):
-    return (total_sum) / (num_items)
+# def calculate_mean(total_sum, num_items):
+#     return (total_sum) / (num_items)
 
-print(calculate_mean(total_sum,num_items))
+# print(calculate_mean(total_sum,num_items))
+
+
+
