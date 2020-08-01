@@ -33,29 +33,31 @@
 
 # Question 2
 
-names = [
-"Maddy", "Bel", "Elnaz", "Gia", "Izzy",
-"Joy", "Katie", "Maddie", "Tash", "Nic",
-"Rachael", "Bec", "Bec", "Tabitha", "Teagen",
-"Viv", "Anna", "Catherine", "Catherine", "Debby",
-"Gab", "Megan", "Michelle", "Nic", "Roxy",
-"Samara", "Sasha", "Sophie", "Teagen", "Viv"
-]
+# names = [
+# "Maddy", "Bel", "Elnaz", "Gia", "Izzy",
+# "Joy", "Katie", "Maddie", "Tash", "Nic",
+# "Rachael", "Bec", "Bec", "Tabitha", "Teagen",
+# "Viv", "Anna", "Catherine", "Catherine", "Debby",
+# "Gab", "Megan", "Michelle", "Nic", "Roxy",
+# "Samara", "Sasha", "Sophie", "Teagen", "Viv"
+# ]
 
 # 1. Read in the list of names
 # 2. For each name
 # 3. If I haven't see the name before, add it to a dictionary and set it's value to 0, otherwise increment it's value by 1.
 # 4. Output the resulting dictionary.
 
-names_dict = {}
-for student in names:
-    if student in names_dict:
-        no = int(names_dict[student]) + 1
-        names_dict[student] = no
-    else:
-        names_dict[student] = 1
+# names_dict = {}
+# for student in names:
+#     if student in names_dict:
+#         no = int(names_dict[student]) + 1
+#         names_dict[student] = no
+#     else:
+#         names_dict[student] = 1
 
-for student, no in names_dict.items():
-    print(student, no)
+# for student, no in names_dict.items():
+#     print(student, no)
     
+
+
 
