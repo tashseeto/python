@@ -59,5 +59,92 @@
 #     print(student, no)
     
 
+# Question 3
+# 1. Import csv file
+# 2. Create a list
+# 3. Each list item is a dictionary with the colour codes
+    # - first list is the key & the following lists are the matching values
+
+
+import csv
+
+def read_csv_file(filepath):
+    csv_file = []
+    with open(filepath) as file:
+        reader = csv.reader(file)
+        for line in reader:
+            csv_file.append(line)
+        return csv_file
+   
+file = read_csv_file("students/exercise_data/colours_20.csv")
+file[0] = [x.strip(' ') for x in file[0]]
+
+# print(file)
+
+# returns as list of lists
+
+#list of keys and values
+# keylist = file[0] 
+# valuelist = file[1:]
+
+# print(keylist)
+# print(valuelist)
+
+# list for holding dictionaries
+# create dic for K:V
+colour_list = []
+for x in file[1:]:
+    dic = {}
+    # ind is count for the below counter
+    # Key & value assignment dic[y] = x[ind]
+    ind = 0
+    for y in file[0]:
+        dic[y] = x[ind] 
+        ind += 1
+        colour_list.append(dic)
+
+# print(colour_list)
+
+for key, value in colour_list[1].items():
+    print(F"{key} : {value}")
+# above prints key and value per the formatting
+
+print(colour_list[1])
+# above prints dictionary in long row
+
+for x in colour_list[1].items():
+    print(x)
+# above prints the dictionary on separate row/lines
+
+
+# ### QUESTION 3 ###
+# import csv
+# print("***Question 3***")
+# def read_csv_file(filepath):
+#     """ Take filepath, return content as list """
+#     csv_file = []
+#     with open(filepath) as file:
+#         reader = csv.reader(file)
+#         for line in reader:
+#             csv_file.append(line)
+#     return csv_file
+# file = read_csv_file("students/exercise_data/colours_20.csv")
+# file[0] = [x.strip(' ') for x in file[0]]
+
+
+# # colours= []
+# # colour_dict = {}
+# # for x in file[1:]:
+# #     dic = {}
+# #     ind = 0
+# #     for j in file[0]:
+# #         dic[j] = x[ind]
+# #         ind += 1
+# #     colours.append(dic)
+
+
+# for x in colours[3].items():
+#     print(x)
+
 
 
