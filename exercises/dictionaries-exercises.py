@@ -93,6 +93,7 @@ file[0] = [x.strip(' ') for x in file[0]]
 # list for holding dictionaries
 # create dic for K:V
 colour_list = []
+
 for x in file[1:]:
     dic = {}
     # ind is count for the below counter
